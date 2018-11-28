@@ -8,6 +8,7 @@ private:
 	std::string m_name;
 
 public:
+	Player();
 	Player(int score, std::string name);
 	~Player();
 

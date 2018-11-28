@@ -1,6 +1,10 @@
-#include "stdafx.h"
 #include "Player.h"
 
+Player::Player()
+{
+	m_score = 0;
+	m_name = "Player";
+}
 
 Player::Player(int score, std::string name) //constructor
 {
